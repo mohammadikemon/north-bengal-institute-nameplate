@@ -137,17 +137,17 @@
 }
 
 .service .container .demo-Nameplate .demo-Nameplate-Card .logo img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 100%;
 }
 
 .service .container .demo-Nameplate .demo-Nameplate-Card .box .name {
-    font-size: 34px;
+    font-size: 28px;
 }
 
 .service .container .demo-Nameplate .demo-Nameplate-Card .box .course-Detail {
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 2px;
 }
 
