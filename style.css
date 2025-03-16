@@ -132,6 +132,10 @@
     /* display: block; */
 }
 
+.service .container .demo-Nameplate .demo-Nameplate-Card.mamun{
+    margin-top: 40px;
+}
+
 .service .container .demo-Nameplate .demo-Nameplate-Card .logo img {
     width: 100px;
     height: 100px;
