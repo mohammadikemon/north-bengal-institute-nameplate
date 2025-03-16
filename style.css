@@ -137,9 +137,10 @@
 }
 
 .service .container .demo-Nameplate .demo-Nameplate-Card .logo img {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border-radius: 100%;
+    margin-right: 5px;
 }
 
 .service .container .demo-Nameplate .demo-Nameplate-Card .box .name {
