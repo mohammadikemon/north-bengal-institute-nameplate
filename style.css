@@ -116,7 +116,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 500px;
+    width: fit-content;
     background-color: #000000;
     color: #fff;
     padding:10px 10px;
@@ -148,10 +148,12 @@
 
 .service .container .demo-Nameplate .demo-Nameplate-Card .box .course-Detail {
     font-size: 22px;
+    margin-top: 2px;
 }
 
 .service .container .demo-Nameplate .demo-Nameplate-Card .box .course-Location {
-    font-size: 20px;
+    font-size: 18px;
+    margin-top: 3px;
 }
 
 .service .serv-content .card .box .roll {
