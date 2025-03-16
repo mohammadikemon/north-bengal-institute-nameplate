@@ -95,6 +95,61 @@
 
 }
 
+.demo-Heading{
+    font-size: 50px;
+    color: crimson;
+    text-align: center;
+    margin-top: 30px;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+.service .container .demo-Nameplate {
+    display:block;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #000000;
+    padding: 20px;
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    background-color: #000000;
+    color: #fff;
+    padding:10px 10px;
+    font-family:'Roboto', sans-serif;
+    font-weight:600;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 0px;
+    border: 10px solid white;
+    position: relative;
+    /* display: block; */
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card .logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card .box .name {
+    font-size: 34px;
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card .box .course-Detail {
+    font-size: 22px;
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card .box .course-Location {
+    font-size: 20px;
+}
+
 .service .serv-content .card .box .roll {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
