@@ -145,7 +145,7 @@
     width: 90px;
     height: 90px;
     border-radius: 100%;
-    transform: scale(1);
+    transform: scale(1.2);
 }
 
 .service .container .demo-Nameplate .demo-Nameplate-Card .box .name {
