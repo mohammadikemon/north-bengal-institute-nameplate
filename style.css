@@ -135,7 +135,10 @@
 
 .service .container .demo-Nameplate .demo-Nameplate-Card.mamun{
     margin-top: 40px;
+    padding: 5px 10px
 }
+
+
 
 .service .container .demo-Nameplate .demo-Nameplate-Card .logo img {
     width: 90px;
@@ -156,6 +159,18 @@
 .service .container .demo-Nameplate .demo-Nameplate-Card .box .course-Location {
     font-size: 18px;
     margin-top: 3px;
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card.mamun .box .name{
+    font-size: 40px;
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card.mamun .box .course-Detail{
+    font-size: 26px;
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card.mamun .box .course-Location{
+    font-size: 22px;
 }
 
 .service .serv-content .card .box .roll {
