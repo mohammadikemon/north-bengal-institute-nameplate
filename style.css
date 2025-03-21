@@ -108,73 +108,75 @@
     display:block;
     margin: auto;
     margin-top: 10px;
-    background-color: #000000;
-    padding: 20px;
+    background-color: white
 }
 
 .service .container .demo-Nameplate .demo-Nameplate-Card {
+    width: fit-content;
+    margin: auto;
+    background-color: black;
+    padding: 10px;
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card .flexBox {
     display: flex;
+    color: white;
+    border: 3px solid white;
     justify-content: space-between;
     align-items: center;
-    width: fit-content;
-    background-color: #000000;
-    color: #fff;
-    padding: 0px 10px;
-    padding-left: 0px;
-    font-family:'Roboto', sans-serif;
-    font-weight:600;
-    font-size: 18px;
+    width: 380px;
+    flex-wrap: wrap;
+    
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card .flexBox .logo {
+    width: calc(22% - 0px);
+    height: 80px;
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card .flexBox .logo img {
+    width: 80px
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card .flexBox .box {
+    width: calc(78% - 0px);
     text-align: center;
-    cursor: pointer;
-    margin: auto;
-    margin-bottom: 0px;
-    border: 10px solid white;
-    position: relative;
-    /* display: block; */
 }
 
-.service .container .demo-Nameplate .demo-Nameplate-Card.mamun{
-    margin-top: 40px;
-    padding: 07px 10px;
-    line-height: 1.1;
+.service .container .demo-Nameplate .demo-Nameplate-Card .flexBox .box .name {
+    font-size: 34px;
+    font-family:sans-serif;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 35px;
+
 }
 
-
-
-.service .container .demo-Nameplate .demo-Nameplate-Card .logo img {
-    width: 90px;
-    height: 90px;
-    border-radius: 100%;
-    transform: scale(1);
-    margin-top: 5px;
-    margin-left: -7px;
-}
-
-.service .container .demo-Nameplate .demo-Nameplate-Card .box .name {
-    font-size: 28px;
-}
-
-.service .container .demo-Nameplate .demo-Nameplate-Card .box .course-Detail {
-    font-size: 18px;
-    margin-top: 2px;
-}
-
-.service .container .demo-Nameplate .demo-Nameplate-Card .box .course-Location {
-    font-size: 18px;
-    margin-top: 3px;
-}
-
-.service .container .demo-Nameplate .demo-Nameplate-Card.mamun .box .name{
-    font-size: 32px;
-}
-
-.service .container .demo-Nameplate .demo-Nameplate-Card.mamun .box .course-Detail{
-    font-size: 24px;
-}
-
-.service .container .demo-Nameplate .demo-Nameplate-Card.mamun .box .course-Location{
+.service .container .demo-Nameplate .demo-Nameplate-Card .flexBox .box .course-Detail {
     font-size: 22px;
+    font-family:sans-serif;
+    font-weight: bold;
+    
 }
+
+.service .container .demo-Nameplate .demo-Nameplate-Card .course-Location {
+    background-color: white;
+    border: 3px solid white;
+    text-align: center;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card.mamun {
+    margin-top: 30px;
+}
+
+
+
+
 
 .service .serv-content .card .box .roll {
     font-size: 30px;
