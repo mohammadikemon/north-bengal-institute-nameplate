@@ -138,6 +138,20 @@
     width: 80px
 }
 
+.service .container .demo-Nameplate .demo-Nameplate-Card .flexBox .logo.prime {
+    width: 70px;
+    height: 70px;
+    margin: 5px 0 5px 5px;
+    background-color: white;
+    border-radius: 100px;
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card .flexBox .logo.prime img {
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+}
+
 .service .container .demo-Nameplate .demo-Nameplate-Card .flexBox .box {
     width: calc(78% - 0px);
     text-align: center;
@@ -171,9 +185,17 @@
 }
 
 .service .container .demo-Nameplate .demo-Nameplate-Card.mamun {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
+.service .container .demo-Nameplate .demo-Nameplate-Card.emran {
+    margin-top: 15px;
+}
+
+.service .container .demo-Nameplate .demo-Nameplate-Card.emran .flexBox .box .name {
+    font-size: 30px;
+    letter-spacing: 0.5px;
+}
 
 
 
