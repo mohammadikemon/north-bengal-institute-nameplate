@@ -220,6 +220,7 @@
     text-align:center;
     font-size:  30px;
     text-transform: uppercase;
+    line-height: 2.5rem;
 }
 
 .service .serv-content .card .box .student-id span {
