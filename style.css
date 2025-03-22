@@ -73,6 +73,16 @@
     position: relative;
 }
 
+.service .serv-content .card.red {
+    background-color: red;
+    text-align: center;
+}
+
+.service .serv-content .card.black {
+    background-color: #222;
+    text-align: center;
+}
+
 .service .serv-content .card .box {
     padding: 0 5px;
 }
